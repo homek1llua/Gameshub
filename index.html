@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Hub</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Welcome to Game Hub</h1>
+            <p>Join rooms, play games, and chat with friends!</p>
+        </header>
+
+        <section class="game-list">
+            <h2>Available Games</h2>
+            <ul id="gameList">
+                <!-- Dynamically populated -->
+            </ul>
+        </section>
+
+        <section class="user-auth">
+            <button id="loginBtn">Login</button>
+            <button id="logoutBtn" style="display:none;">Logout</button>
+        </section>
+
+        <footer>
+            <p>Game Hub &copy; 2025</p>
+        </footer>
+    </div>
+
+    <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-firestore.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/socket.io-client@4.0.1/dist/socket.io.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
