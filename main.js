@@ -1,11 +1,13 @@
 // Firebase configuration
 const firebaseConfig = {
-    apiKey: "YOUR_API_KEY",
-    authDomain: "YOUR_PROJECT_ID.firebaseapp.com",
-    projectId: "YOUR_PROJECT_ID",
-    storageBucket: "YOUR_PROJECT_ID.appspot.com",
-    messagingSenderId: "YOUR_SENDER_ID",
-    appId: "YOUR_APP_ID"
+  apiKey: "AIzaSyAVqk4DqL2RfGGE_zGd5Mz_mknqvp-2xBE",
+  authDomain: "publicgames-hub.firebaseapp.com",
+  databaseURL: "https://publicgames-hub-default-rtdb.firebaseio.com",
+  projectId: "publicgames-hub",
+  storageBucket: "publicgames-hub.firebasestorage.app",
+  messagingSenderId: "209471908449",
+  appId: "1:209471908449:web:ff9a0cd8fa9bdc261b9820",
+  measurementId: "G-LZC848KMCV"
 };
 
 // Initialize Firebase
